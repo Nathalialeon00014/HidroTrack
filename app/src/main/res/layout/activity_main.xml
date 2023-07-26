@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="329dp"
+        android:layout_height="52dp"
+        android:fontFamily="serif"
+        android:text="Pantalla de inicio"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <Button
+        android:id="@+id/bottonCdA"
+        android:layout_width="369dp"
+        android:layout_height="56dp"
+        android:text="Registro de Consumo de Agua"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <Button
+        android:id="@+id/buttonConejos"
+        android:layout_width="369dp"
+        android:layout_height="56dp"
+        android:text="Consejos"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Button
+        android:id="@+id/buttonSdA"
+        android:layout_width="369dp"
+        android:layout_height="56dp"
+        android:text="Seguimiento de Progreso"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <Button
+        android:id="@+id/buttonImfor"
+        android:layout_width="369dp"
+        android:layout_height="56dp"
+        android:text="Information"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <Button
+        android:id="@+id/buttonconfiguraciones"
+        android:layout_width="369dp"
+        android:layout_height="56dp"
+        android:text="Configuraciones"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
